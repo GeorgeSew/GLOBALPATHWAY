@@ -1,0 +1,215 @@
+header {
+    background-color: #a0c9f7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #70abee;
+}
+
+.overlay h2 {
+    font-size: 2.8rem;
+    font-family: Elephant;
+    color: #a0a0a0;
+}
+
+.overlay p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #355c7d;
+    color: #a0a0a0;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    
+}
+
+.btn:hover {
+    background-color: #0d2447;
+}
+
+body {
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('images/hero.jpg') center/cover no-repeat;
+    height: 50vh;
+    position: relative;
+    color: rgb(7, 6, 44);
+}
+
+p {
+    text-size-adjust: 15px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: #6c8daa;
+}
+
+nav {
+    position: sticky;
+    top: 0%;
+    background-color: #355c7d;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-flex;
+    margin: 0 15px;
+}
+
+.nav-list:hover {
+    color:#ffffff
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    color: #355c7d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-right: none;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-left: none;
+  border-radius: 0 8px 8px 0;
+  background-color: #355c7d;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-bar button:hover {
+  background-color: #5DADEC;
+}
+
+.gallery .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}.container {
+            width: 90%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .destination-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .destination-card:hover {
+            transform: translateY(-5px);
+        }
+        .destination-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .destination-content {
+            padding: 15px;
+        }
+        .destination-content h3 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+        .destination-content p {
+            font-size: 0.9em;
+            line-height: 1.6;
+        }
+        .destination-content a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .destination-content a:hover {
+            background-color: #0056b3;
+        }
+
+footer {
+    background-color: #355c7d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer .social-icons img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+footer .social-icons a:hover {
+    transform: scale(1.2);
+}
